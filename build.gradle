@@ -63,7 +63,7 @@ tasks.named('jar', Jar).configure {
             'Implementation-Version': project.jar.archiveVersion,
         ])
     }
-    finalizedBy 'reobfJar'
+    
 }
 
 tasks.withType(JavaCompile).configureEach {
